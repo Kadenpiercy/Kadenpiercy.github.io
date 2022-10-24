@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head> 
+	<title>Pacific Trails Resort :: Reservations</title>
+	<meta charset="utf-8">
+	<link href="pacific.css" rel="stylesheet">
+   </head>
+<body>
+	<div id="wrapper">
+	<header>
+		<h1><a href="index.html">Pacific Trails Resort</a></h1>
+	</header>
+	<nav>
+		<ul>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="yurts.html">Yurts</a></li>
+			<li><a href="activities.html">Activities</a></li>
+			<li><a href="reservations.html">Reservations</a></li>
+		</ul>
+	</nav>
+	<main>
+		<h2>Reservations at Pacific Trails</h2>
+	<h3>Contact Us Today!</h3>
+	<p>Required fields are marked with an asterisk*.</p>
+	<form method="post" action="https://webdevbasics.net/scripts/pacific.php">
+		<br><label for="myFName">*First Name:</label>
+		<input type="text" name="myFName" id="myFName">
+		<br><label for="myLName">*Last Name:</label>
+		<input type="text" name="myLName" id="myLName">
+		<br><label for="myEmail">*E-mail:</label>
+		<input type="text" name="myEmail" id="myEmail">
+		<br><label for="myPhone">Phone:</label>
+		<input type="text" name="myPhone" id="myPhone">
+		<br><label for="arrivalDate">ArrivalDate</label>
+		<input type="date" name="arrivalDate" id="arrivalDate">
+		<br><label for="Nights"> Nights:</label>
+		<input type="number" name="Nights" id="Nights" min="1" max="14">
+		<br><label for="Comments"> *Comments</label>
+		<textarea name="Comments" id="Comments" rows="2" cols="30"></textarea>
+		<br><input id="mySubmit" type="submit" value="submit">
+		</form>
+	</main>
+	<footer>
+			Copyright &copy; 2020 Pacific Trails Resort<br>
+			<a href="mailto:Kaden.Kpiercy@davistech.edu">
+				Kaden.Kpiercy@davistech.edu
+			</a>
+	</footer>
+	</div>
+</body>	
+</html>
