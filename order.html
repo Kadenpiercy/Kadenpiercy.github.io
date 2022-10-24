@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Order</title>
+        <meta charset="utf-8">
+        <link href="index.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+        <h1>Kaden's Cookies</h1>
+        </header>
+        <nav>
+            <b>
+                <a href="index.html">Home</a> &nbsp;
+                <a href="prices.html">Prices</a> &nbsp;
+                <a href="order.html">Order</a> &nbsp;
+            </b>
+        </nav>
+        <main>
+        <h2>Order your cookies here</h2>
+        <p>The best cookies you'll ever try!</p>
+        <form method="post" action="https://webdevbasics.net/scripts/demo.php">
+            <br><label for="myFName">First Name:</label>
+            <input type="text" name="myFName" id="myFName">
+            <br><label for="myLName">Last Name:</label>
+            <input type="text" name="myLName" id="myLName">
+            <br><label for="myPhone">Phone:</label>
+		    <input type="tel" name="myPhone" id="myPhone">
+            <br><label for="Brownie">Brownie</label>
+            <input type="number" name="Brownie" id="Brownie" min="0" max="10">
+            <br><label for="PeanutButter">PeanutButter</label>
+            <input type="number" name="PeanutButter" id="PeanutButter" min="0" max="10">
+            <br><label for="S'mores">S'mores</label>
+            <input type="number" name="S'mores" id="S'mores" min="0" max="10">
+            <br><label for="CreditCard">Credit Card</label>
+            <input type="text" name="Creditcard" id="CreditCard">
+            <br><input id="mySubmit" type="submit" value="submit">
+            </form>
+        </main>
+        <footer>
+            <small><i>
+                Copyright &copy; Kaden's Cookies<br>
+                <a href="mailto:Kpiercy@davistech.edu">
+                    Kpiercy@davistech.edu
+                    </a>
+            </i></small>
+        </footer>
+    </body>
+    </html>
